@@ -1,0 +1,17 @@
+div.master {
+  margin: 0 auto;
+  width: 50%;
+  height: 150%;
+  background-color: gray;
+}
+
+input.entry {
+  width: 60%;
+  height: 20%;
+}
+
+input.entry:focus {
+  outline-width: 1px;
+  outline-color: black;
+  outline-style: solid;
+}

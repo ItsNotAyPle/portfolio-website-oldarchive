@@ -1,0 +1,13 @@
+.footer {
+    height: 20vh;
+    background-color: rgb(79, 94, 98);
+}
+
+div.socialMediaWrapper {
+    display:flex;
+    flex-direction: column;
+}
+
+div.redirectLink {
+    
+}

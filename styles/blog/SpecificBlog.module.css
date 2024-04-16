@@ -1,0 +1,26 @@
+p.errMsg {
+  color: red;
+  font-size: 2em;
+  text-align: center;
+}
+
+div.root {
+    background: linear-gradient(to bottom left, rgb(122, 100, 100), rgb(255, 0, 119));
+}
+
+h1.title {
+    margin-top: 0;
+    text-align: center;
+}   
+
+div.paraParent {
+    width: 98vw;
+    margin: 0 auto;
+    background-color: rgba(26, 1, 255, 0.2);
+}
+
+p.para {
+    font-size: 1.25em;
+    text-align: center;
+    margin-bottom: 0;
+}

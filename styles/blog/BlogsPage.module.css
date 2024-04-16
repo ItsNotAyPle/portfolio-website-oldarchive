@@ -1,0 +1,51 @@
+div.root {
+	background-color: #1B83C8;
+    height: 100vh;
+}
+
+h1.pageTitle {
+	text-align: center;
+}
+
+div.blogs {
+	display: flex;
+	height: fit-content;
+	padding: 25px 25px 25px 25px;
+	flex-direction: column;
+}
+
+div.blog {
+	background-color: rgba(6, 67, 117, 0.404);
+	border-radius: 20px;
+	min-height: 200px;
+	height: fit-content;
+	margin-bottom: 5px;
+}
+
+div.blog:hover {
+	border: solid black 1px;
+	border-bottom-width: 2px;
+}
+
+p.blogPara {
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 0;
+	font-size: 1.4em;
+}
+
+h1.blogTitle{
+	margin-left: 20px;
+	margin-top: 0;
+	text-align: center;
+}
+
+div.blogDatetimeParent {
+    margin-top: 4.5vh;
+    padding-left: 1.5vw;
+}
+
+p.blogDatetime {
+    margin-bottom: 0;
+}

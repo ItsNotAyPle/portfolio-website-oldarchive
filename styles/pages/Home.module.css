@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@700&display=swap');
+
+div.root {
+    height: 100vh;
+	background-image: linear-gradient(to bottom, #0DEB7C, #0632A1);
+}
+
+div.titleWrapper {
+	text-align: center;
+}
+
+.title {
+	font-size: 5vh;
+	margin-top: 0;
+	margin-bottom: 0.5vh;
+}
+
+.titleFields {
+	margin-top: 0;
+	text-decoration: underline;
+}
+
+div.infoSections {
+	display: flexbox;
+	flex-direction: column;
+}
+
+div.section {
+	width: 90%;
+	min-height: 25vh;
+	margin: 0 auto;
+	margin-bottom: 2vh;
+	border-radius: 2vw;
+}
+
+.aboutSection {
+	background-color: rgba(14, 239, 96, 0.2)
+}
+
+.currentSection {
+	background-color: rgba(14, 239, 96, 0.2)
+}
+
+.storiesSection {
+	background-color: rgba(64, 209, 117, 0.2)
+}
+
+h2.sectionHeading {
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 4vh;
+	padding-left: 2vw;
+	padding-top: 1vh;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+p.sectionPara {
+	font-weight: bold;
+	width: 100%;
+	font-size: 3vh;
+	padding-left: 2vw;
+	margin-bottom: 0;
+}

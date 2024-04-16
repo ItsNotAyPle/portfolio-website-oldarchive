@@ -1,0 +1,24 @@
+div.navbar {
+	padding: 2px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color:gray;
+}
+
+div.item {
+	width: 8%;
+	font-size: 1.5vw;
+	cursor: pointer;
+}
+
+div.item:hover {
+    background-color: cyan;
+}
+
+h3.text {
+    text-align: center;
+    margin-top: 15%;
+    font-size: 1.5em;
+}

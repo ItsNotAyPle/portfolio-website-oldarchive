@@ -1,0 +1,36 @@
+.root {
+    height: 95vh;
+    background-color: cadetblue;
+    padding-top: 5vh;
+    padding-bottom: 30vh;
+}
+
+table.projects {
+    min-width: 90%;
+    border-radius: 10vw;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table.projects tbody tr {
+    font-size: 2vh;
+    background-color: whitesmoke;
+    line-height: 5vh;
+}
+
+table.projects tr:nth-child(even) {
+    background-color: rgb(172, 167, 184);
+}
+
+table.projects td {
+    padding-left: 0.5%;
+}
+
+table.projects thead {
+    font-size: 1.5vw;
+    background-color: rgb(35, 182, 35);
+}
+
+table.projects thead tr td {
+    border-radius: 50px;
+}
